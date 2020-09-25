@@ -31,7 +31,6 @@ INTERFACES = (
     "hmm",
     "indexes",
     "jobs",
-    "labels",
     "otus",
     "processes",
     "references",
