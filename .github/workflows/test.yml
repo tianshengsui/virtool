@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - test-actions
-  pull_request:
-    branches:
-      - test-actions
-
 jobs:
   server:
 
