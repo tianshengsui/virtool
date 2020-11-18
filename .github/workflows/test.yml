@@ -28,4 +28,4 @@ jobs:
           pip install -qr requirements.txt
           pytest  -x --db-connection-string mongodb://mongo:27017 --redis-connection-string redis://redis:6379 --cov --cov-report xml
       - name: check
-        run: readlink -f coverage.xml
+        run: echo $GITHUB_WORKSPACE
