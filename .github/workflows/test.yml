@@ -19,9 +19,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: test
-        run: |
-          pip install -qr requirements.txt
-          pytest  -x --db-connection-string mongodb://mongo:27017 --redis-connection-string redis://redis:6379 --cov --cov-report xml
+#      - name: test
+#        run: |
+#          pip install -qr requirements.txt
+#          pytest  -x --db-connection-string mongodb://mongo:27017 --redis-connection-string redis://redis:6379 --cov --cov-report xml
       - name: check
         run: echo $GITHUB_WORKSPACE
